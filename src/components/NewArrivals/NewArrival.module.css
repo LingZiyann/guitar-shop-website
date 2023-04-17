@@ -1,0 +1,24 @@
+.featured{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.title{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 3rem;
+}
+
+
+hr{
+    border-top: 4px solid red;
+    width: 25%;
+}
+
+.section{
+    width: 70%;
+    display: flex;
+    padding-top: 2rem;
+}

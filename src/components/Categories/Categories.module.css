@@ -1,0 +1,45 @@
+.categoriesContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-top: 3rem;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.card::before{
+    z-index: 100;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover::before{
+    opacity: 1;
+}
+
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title{
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

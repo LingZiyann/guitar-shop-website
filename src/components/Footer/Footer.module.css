@@ -1,0 +1,30 @@
+.footerContainer{
+    padding-bottom: 3rem;
+    background-color: #F5F5EF;
+}
+
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2.5rem;
+}
+
+.bodyContainer{
+    display: flex;
+    justify-content: space-around
+}
+
+.bodyContainer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyContainer ul li{
+    font-size: 1.2rem;
+}
