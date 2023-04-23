@@ -9,16 +9,57 @@
     transition: transform 0.3s ease-in-out;
     transform: translateX(100%);
     z-index: 1000;
+    overflow: auto;
 }
 
-.cartContainer button{
+.closebutton{
     all: unset;
     cursor: pointer;
     position: absolute;
     right: 3%;
+    top: 0.5rem;
 
 }
 
 .cartContainer.open {
     transform: translateX(0%);
-  }
+}
+
+.itemContainer{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.itemContainer h1{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.itemContainer h2{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.removebutton{
+    all: unset;
+    cursor: pointer;
+    width: 5%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin-left: 5rem;
+}

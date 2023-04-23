@@ -1,5 +1,5 @@
 .homecontainer{
-    height: 80vh;
+  height: 80%;
 }
 
 .title{
@@ -14,18 +14,22 @@
 }
 
 .title h1{
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
-    font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+  font-weight: 400;
+  color: '#D32D41';
+
 }
 
 .title h2{
-    font-size: 1rem;
-    font-weight: 400;
-    padding-left: 10px;
+  font-size: 1em;
+  font-weight: 400;
+  padding-left: 10px;
+  color: '#D32D41';
 }
 
 .button{
+  width: 100%;
   align-items: center;
   background-clip: padding-box;
   background-color: #fa6400;
@@ -85,4 +89,62 @@
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .img{
+    height: 45rem
+  }
+}
+
+@media screen and (max-width: 1280px){
+  .title h1{
+    font-size: 3.3rem;
+  }
+  .title h2{
+    font-size: 0.9rem;
+    color: black;
+  }
+
+  .title{
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@media screen and (max-width: 1100px){
+  .title h1{
+    font-size: 3rem;
+  }
+  .title h2{
+    font-size: 0.8rem;
+    color: black;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .title h1{
+    font-size: 1.8rem;
+  }
+  .title h2{
+    font-size: 0.7rem;
+    color: black;
+  }
+  .button{
+    height: 1rem;
+    line-height: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .title h1{
+    font-size: 1.3rem;
+  }
+  .title h2{
+    font-size: 0.5rem;
+  }
+
 }

@@ -28,3 +28,39 @@
 .bodyContainer ul li{
     font-size: 1.2rem;
 }
+
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 2rem;
+    }
+    .bodyContainer ul li{
+        font-size: 1.2rem;
+    }
+    .bodyContainer ul h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .title{
+        font-size: 2rem;
+    }
+    .bodyContainer ul li{
+        font-size: 1.2rem;
+    }
+    .bodyContainer ul h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .title{
+        font-size: 2rem;
+    }
+    .bodyContainer ul li{
+        font-size: 0.8rem;
+    }
+    .bodyContainer ul h1{
+        font-size: 0.8rem;
+    }
+}

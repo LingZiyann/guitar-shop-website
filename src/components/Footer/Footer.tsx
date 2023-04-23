@@ -26,7 +26,7 @@ export default function Footer (){
                 </ul>
                 
                 <ul>
-                    <h1>Customer Service</h1>
+                    <h1>Products</h1>
                     <NavLink to="/" style={{ textDecoration: 'none', color: 'black'}}><li>Acoustic Guitars</li></NavLink>
                     <NavLink to="/" style={{ textDecoration: 'none', color: 'black'}}><li>Electric Guitars</li></NavLink>
                     <NavLink to="/" style={{ textDecoration: 'none', color: 'black'}}><li>Bass Guitars</li></NavLink>

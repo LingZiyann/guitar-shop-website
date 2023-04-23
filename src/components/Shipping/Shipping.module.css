@@ -9,6 +9,7 @@
     width: 80%;
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
 
@@ -72,4 +73,40 @@
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
+}
+
+@media screen and (max-width: 1000px){
+    .textcontainer h1{
+        font-size: 2rem;
+    }
+    .textcontainer p{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .textcontainer h1{
+        font-size: 2rem;
+    }
+    .textcontainer p{
+        font-size: 1rem;
+    }
+    .articleContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .container img{
+        width: 18rem;
+        height: 10rem;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .textcontainer h1{
+        font-size: 1.2rem;
+    }
+    .textcontainer p{
+        font-size: 0.8rem;
+    }
 }
