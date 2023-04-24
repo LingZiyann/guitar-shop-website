@@ -15,7 +15,7 @@ function Home(){
                     <h2 style={{color: '#D32D41'}}>Craftsmanship, playability and sophisicated tone-Taylor 414ce is now here</h2>
                     <NavLink to='/store' style={{textDecoration: 'none', color:'inherit'}}><button className={classes.button}>Shop now</button></NavLink>
                 </div>
-                <img className={classes.img} src="\images\kvVDoai.jpg"></img>
+                <img className={classes.img} src="./images/kvVDoai.jpg"></img>
             </div>
             <section className={classes.container1}>
             <Featured></Featured>
