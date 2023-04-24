@@ -18,10 +18,10 @@ function Navbar(){
         <nav className={classes.nav}>
             <NavLink to="/" style={{textDecoration: 'none', color:'inherit'}}><h1 style={{fontWeight: 400}} className={classes.logo}>GuitarShop</h1></NavLink>
             <ul>
-                <li><NavLink to={{pathname: '/'}} style={{textDecoration: 'none', color:'inherit'}}>Deals</NavLink></li>
+                <li><NavLink to={{pathname: '//'}} style={{textDecoration: 'none', color:'inherit'}}>Deals</NavLink></li>
                 <li><NavLink to="/store" style={{textDecoration: 'none', color:'inherit'}}>Products</NavLink></li>
-                <li><NavLink to="/" style={{textDecoration: 'none', color:'inherit'}}>About</NavLink></li>
-                <li><NavLink to="/" style={{textDecoration: 'none', color:'inherit'}}>Contact</NavLink></li>
+                <li><NavLink to="//" style={{textDecoration: 'none', color:'inherit'}}>About</NavLink></li>
+                <li><NavLink to="//" style={{textDecoration: 'none', color:'inherit'}}>Contact</NavLink></li>
                 <button className={classes.button} onClick={context.openCart}><FontAwesomeIcon icon={faCartShopping} color='white'/></button>
                 <Cart></Cart>
             </ul>
