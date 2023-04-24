@@ -16,7 +16,7 @@ function Navbar(){
 
     return (
         <nav className={classes.nav}>
-            <NavLink to="/" style={{textDecoration: 'none', color:'inherit'}}><h1 style={{fontWeight: 400}}>GuitarShop</h1></NavLink>
+            <NavLink to="/" style={{textDecoration: 'none', color:'inherit'}}><h1 style={{fontWeight: 400}} className={classes.logo}>GuitarShop</h1></NavLink>
             <ul>
                 <li><NavLink to={{pathname: '/'}} style={{textDecoration: 'none', color:'inherit'}}>Deals</NavLink></li>
                 <li><NavLink to="/store" style={{textDecoration: 'none', color:'inherit'}}>Products</NavLink></li>
