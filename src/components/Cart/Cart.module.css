@@ -63,3 +63,9 @@
     justify-content: center;
     margin-left: 5rem;
 }
+
+
+
+.removebutton:focus-visible,.closebutton:focus-visible{
+    outline: 3px solid black;
+}

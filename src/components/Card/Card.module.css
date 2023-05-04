@@ -25,6 +25,13 @@
     opacity: 0.3;
 }
 
+.Card:focus-visible::before{
+    opacity: 0.3;
+}
+
+.Card:focus .button{
+    transform: translateY(-1px);
+}
 
 .img{
     object-fit: cover; 
