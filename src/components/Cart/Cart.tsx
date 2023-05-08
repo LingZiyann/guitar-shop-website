@@ -18,11 +18,7 @@ export default function Cart(){
         context.removeFromCart(id)
     }
 
-    // useEffect(() => {
-    //     if (isOpen && firstButtonRef.current) {
-    //       firstButtonRef.current.focus();
-    //     }
-    //   }, [isOpen]);
+    
 
     return(
         <div className={isOpen ? `${classes.cartContainer} ${classes.open}` : classes.cartContainer}>

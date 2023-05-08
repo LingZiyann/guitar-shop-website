@@ -1,9 +1,11 @@
 import express from "express";
-import pg from 'pg';
-import { addToCart } from "../controllers/cart-controllers.js";
+import { addToCart, removeFromCart, getCart } from "../controllers/cart-controllers.js";
+import { auth } from "../middleware/auth.js";
 
 const cartRouter = new express.Router();
 
-cartRouter.post('/cart', addToCart)
+cartRouter.post('/cart', auth , addToCart);
+cartRouter.delete('/cart/:pid', auth , removeFromCart);
+cartRouter.get('/cart', auth ,getCart);
 
 export default cartRouter;
